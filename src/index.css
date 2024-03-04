@@ -1,0 +1,121 @@
+/*For Add button*/
+.addbutton {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(177, 238, 57);
+  transition: 0.3s;
+}
+
+.addbutton:hover {
+  background-color: rgb(194, 232, 119);
+  font-weight: bolder;
+}
+/*For input box*/
+.inputbox {
+  margin-right: 10px;
+  padding: 8px;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgb(245, 245, 203);
+}
+
+/*Input Container*/
+.inputcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smallinputcontainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Display Container*/
+.displaymaincontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+.displaymaincontainer ul {
+  font-size: 20px;
+  list-style: disc;
+  width: 35%;
+}
+.displaymaincontainer li {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 6px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-left: 10px;
+  background: rgb(238, 224, 178);
+}
+.displaysmallcontainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tasklist {
+  width: 35%;
+}
+
+/*display box*/
+.displaybox {
+  margin-right: 10px;
+  padding: 8px;
+  width: 50%;
+  border-radius: 10px;
+}
+/*Edit*/
+.edit {
+  width: 70px;
+
+  border: none;
+  background-color: rgb(104, 36, 36);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  height: 30px;
+  border-right: 2px solid black;
+}
+.edit:hover {
+  background-color: rgb(244, 87, 87);
+  font-weight: bolder;
+}
+
+/*Delete*/
+.delete {
+  width: 70px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  background-color: rgb(246, 7, 7);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  height: 30px;
+}
+.delete:hover {
+  background-color: rgb(244, 87, 87);
+  font-weight: bolder;
+}
+.list {
+  margin-left: 10px;
+}
+
+.inputList {
+  background: transparent;
+  border: none;
+  width: 60%;
+  outline: none;
+}
